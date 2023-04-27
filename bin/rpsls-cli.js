@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { rpsls } from 'node-rpsls'
+import { rpsls } from '../lib/rpsls.js';
 import minimist from 'minimist';
 
 const args = minimist(process.argv.slice(2));
@@ -29,8 +29,8 @@ if (args.r || args.rules) {
 const move = args._[0]
 
 try {
-    game = rps(move)
-    console.log(JSON.stringify(rps(game)));
+    game = rpsls(move)
+    console.log(JSON.stringify(rpsls(game)));
 } catch (e){
     process.exit(0)
 }
