@@ -40,7 +40,6 @@ try {
     const game = rpsls(args._[0])
     console.log(JSON.stringify(game));
 } catch (e){
-    console.log('Game run failed')
     process.exit(0)
 }
 
