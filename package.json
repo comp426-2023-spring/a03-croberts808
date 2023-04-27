@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a03-croberts808.git"
   },
   "author": "croberts808",
