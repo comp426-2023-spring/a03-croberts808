@@ -40,6 +40,7 @@ try {
     game = rpsls(move)
     console.log(JSON.stringify(rpsls(game)));
 } catch (e){
+    console.log('Game run failed')
     process.exit(0)
 }
 
