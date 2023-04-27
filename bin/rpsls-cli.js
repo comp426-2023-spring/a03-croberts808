@@ -6,13 +6,13 @@ const args = minimist(process.argv.slice(2));
 
 if (args.h || args.help) {
     
-    console.log('Usage: node-rps [SHOT]\nPlay Rock Paper Scissors (RPS)\n\n',
+    console.log('Usage: node-rpsls [SHOT]\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!\n\n',
     '  -h, --help      display this help message and exit\n',
     '  -r, --rules     display the rules and exit\n\nExamples:\n',
-    '  node-rps        Return JSON with single player RPS result.\n',
+    '  node-rpsls        Return JSON with single player RPSLS result.\n',
     '                  e.g. {"player":"rock"}\n',
-    '  node-rps rock   Return JSON with results for RPS played against a simulated opponent.\n',
-    '                  e.g {"player":"rock","opponent":"scissors","result":"win"}')
+    '  node-rpsls rock   Return JSON with results for RPS played against a simulated opponent.\n',
+    '                  e.g {"player":"rock","opponent":"Spock","result":"lose"}')
     process.exit(0);
 }
 
