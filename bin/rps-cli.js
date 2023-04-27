@@ -29,8 +29,8 @@ if (args.r || args.rules) {
 const move = args._[0]
 
 try {
-    game = rps(move)
-    console.log(JSON.stringify(rps(game)));
+    const game = rps(move)
+    console.log(JSON.stringify((game)));
 } catch (e){
     process.exit(0)
 }
