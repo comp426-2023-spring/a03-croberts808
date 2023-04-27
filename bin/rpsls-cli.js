@@ -21,7 +21,15 @@ if (args.r || args.rules) {
     console.log('Rules for Rock Paper Scissors:\n\n',
     ' - Scissors CUTS Paper\n',
     ' - Paper COVERS Rock\n',
-    ' - Rock CRUSHES Scissors')
+    ' - Rock SMOOSHES Lizard\n',
+    ' - Lizard POISONS Spock\n',
+    ' - Spock SMASHES Scissors\n',
+    ' - Scissors DECAPITATES Lizard\n',
+    ' - Lizard EATS Paper\n',
+    ' - Paper DISPROVES Spock\n',
+    ' - Spock VAPORIZES Rock\n',
+    ' - Rock CRUSHES Scissors\n',
+    )
     process.exit(0);
 }
 
